@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;    
+}
+button{
+    cursor: pointer;
+}
+/* Welcome page section starts here */
+.main{
+    position: relative;
+    height:100vh;
+}
+.original{
+    height: 90vh;
+    width:100vw;
+    filter:brightness(70%);
+}
+/* nave bar starts here */
+.nav-bar{
+    width:100%;
+    position:absolute;
+    height:10%;
+    top:0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-logo{
+    height:22px;
+    width:61px;
+    margin-left: 40px;
+}
+
+.log-in{
+    border:none;
+    border-radius: 10px;
+    padding:0 16px;
+    height:40px;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color:#a8afbd;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-right: 40px;
+    
+}
+.log-in:hover{
+    background-color: rgba(35, 34, 34, 0.9);
+}
+/* nave bar ends here */
+.plans{
+    position: absolute;
+    bottom:0;
+    height:370px;
+    width: 46vw;
+    margin-bottom: 13%;
+    margin-left:27%;
+
+}
+.two-cards{
+    display: flex;
+    justify-content:space-between;
+}
+.plan{
+margin:10px;
+width: 319px;
+text-align: center;
+}
+.hd-hde{
+    height:64px;
+    width:90%;
+}
+.green-t{
+    font-family: Graphik Web,Graphik,sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .6px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #00ED82;
+}
+.offer{
+    font-family: Graphik Web,Graphik,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.24;
+    text-transform: none;
+    margin-top: 16px;
+    color:white;
+}
+.get{
+    width: 100%;
+    background: #1CE783;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    padding: 0 24px;
+    height: 40px;
+    border-radius: 4px;
+    border:none;
+}
+.a1{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Graphik Web",sans-serif;
+}
+.a2{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Graphik Web",sans-serif;
+}
+/*  welcome section ends here*/
+
+
+.include{
+    text-align: center;
+    color:white;
+    margin-bottom: 4%;
+}
+.include-h{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+}
+.white-t{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 16px;
+    font-weight:bold;
+    line-height: 1.36;
+    letter-spacing: 0;
+}
+.cards{
+    padding:0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width:295px;
+    position: relative;
+}
+.card-img{
+    width:100%;
+    border-radius: 12px;
+    filter: brightness(70%);
+}
+.abb{
+    position: absolute;
+    top:0;
+    margin:3% 5%;
+    color:white;
+}
+.white-t3{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    line-height: 1.44;
+    letter-spacing: 0;
+}
+.white-t2{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 28px;
+    margin: 0;
+    font-weight: bolder;
+}
+.live{
+    font-family: "Graphik Web",sans-serif;
+    color:white;
+    text-align: center;
+    width:50vw;
+    margin:10% auto;
+}
+.grey-t{
+    font-family: "Graphik Web",sans-serif;
+    color:darkgray;
+    font-size: 10px;
+}
+.live-h{
+    font-family: "Graphik Web",sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+.sport-main{
+    position:relative;
+    width:100vw;
+    height:auto;
+}
+.sport-img{
+    width:100vw;
+    filter: brightness(70%);
+}
+
+
+.live-sport{
+    position:absolute;
+    top:0;
+    margin:11%;
+    width:30vw;
+    color:white;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.white-t4{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 16px;
+    font-weight:bolder;
+    line-height: 1.125;
+    letter-spacing: 0.25px;
+    border-bottom: 4px solid white ;
+    padding-bottom: 2%;
+}
+.grey-t2{
+    color:darkgray;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 16px;
+    font-weight:bolder;
+    line-height: 1.125;
+    letter-spacing: 0.25px;
+    padding-bottom:2%;
+}
+.networks{
+    display:flex;
+    justify-content: space-between;
+    width:60%;
+}
+.net{
+    background-color: white;
+    width:3vw;
+    border-radius: 50%;
+    height:3vw;
+    align-items: center;
+    object-fit: contain;
+}
+.network{
+    padding:20px;
+}
+.include hr{
+    margin:0 10%;
+}
+.most{
+    margin:4px auto;
+    text-align: center;
+    width:10%;
+    padding:8px;
+    font-size: 10px;
+    border-radius: 12px;
+    background: #1CE783;
+    text-transform:uppercase;
+}
+.sub{
+    color:white;
+    width:80%;
+    margin:0 auto;
+    position:sticky;
+    top:0;
+    padding-top:5px;
+    border-bottom: 1px solid white;
+    background-color: black;
+}
+.aline{
+    display:flex;
+    justify-content:space-between;
+}
+.switch{
+    display:flex;
+    justify-content:space-between;
+}
+.white-t5{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+.base-plan{
+    margin:10px;
+}
+.bundle-save{
+    margin:10px;
+}
+
+.bp-img{
+    height:15px;
+}
+.bs-img{
+    height:35px;
+}
+.chart{
+    color:white;
+    width:80%;
+    margin:10px auto;
+    border-bottom: 1px solid white;
+    display:flex;
+    justify-content: space-between;
+}
+.width{
+    width:33%;
+}
+.add-ons{ 
+    text-align: center;
+    color: white;
+    width:80%;
+    margin:0 auto;
+    padding:10px 0;
+}
+.footer{
+    padding:5% 10%;
+    background-color:white;
+}
+.foot-main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+.grey{
+    color:#586174;
+    font-size: 14px;
+    cursor: pointer;
+}
+.s-media{
+    margin:3px 5px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -5%;
+}
