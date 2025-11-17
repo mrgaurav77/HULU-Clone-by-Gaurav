@@ -9,11 +9,10 @@ A responsive and visually accurate replica of the Hulu streaming website, built 
 ---
 
 ## 🖼️ Screenshots  
-<img src="assets/image.png" alt="Hulu Clone Home Layout" width="400">  
-<img src="assets/image1.png" alt="Hulu Clone Mobile View" width="400">
-<img src="assets/image2.png" alt="Hulu Clone Mobile View" width="400">
-<img src="assets/image3.png" alt="Hulu Clone Mobile View" width="400">
-<img src="assets/image4.png" alt="Hulu Clone Mobile View" width="400">
+<img src="imgs/image.png" alt="Hulu Clone Home Layout" width="600">  
+<img src="imgs/image1.png" alt="Hulu Clone Mobile View" width="600">
+<img src="imgs/image2.png" alt="Hulu Clone Mobile View" width="600">
+<img src="imgs/image3.png" alt="Hulu Clone Mobile View" width="600">
 ---
 
 ## 🚀 Features  
